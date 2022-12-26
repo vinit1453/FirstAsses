@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    </link>
+    <style>
+        
+        .btn1:hover {
+            background-color: cyan;
+            width: 50px;
+            border-radius: 50%;
+        }
+
+        nav {
+            background: #00aaff;
+        }
+
+        .nav-item a {
+            text-decoration: none;
+            color: Yellow;
+            font-weight: 500;
+        }
+
+        main {
+            text-align: center;
+        }
+
+        fieldset {
+            border: 5px groove #ddd !important;
+            width: fit-content;
+            height: fit-content;
+            margin: 10px auto;
+            padding: 2px;
+
+        }
+
+        legend {
+            color: rgba(253, 104, 4, 0.975);
+        }
+
+        fieldset .card {
+            display: inline-flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            margin: 4px;
+            padding: 4px;
+
+        }
+
+        /*footer*/
+
+        footer {
+            height: fit-content;
+            width: auto;
+            background: linear-gradient(to top, hwb(0 93% 4%), #f0acac);
+            padding: auto;
+            margin: auto;
+            border-radius: 25%;
+            position: sticky;
+            text-align: center;
+        }
+
+        .footer {
+            display: flex;
+            flex-direction: row;
+            padding: 13px 10px 10px 13px;
+            justify-content: space-around;
+        }
+
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media only screen and(max-width:900px) {
+
+            
+            .footer {
+                display: flex;
+                text-align: center;
+                display: inline-block;
+                padding: auto;
+            }
+
+            footer {
+                height: max-content;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top ">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">KvN -school</a>
+                <ul class="nav nav-pills  me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link"
+                            href="/home/dell/Desktop/vinit/HTML/HTml-ONly/Asses1.html">Home</a></li>
+
+                    <li class="nav-item"><a class="nav-link "
+                            href="/home/dell/Desktop/vinit/HTML/HTml-ONly/std main.html">Students</a></li>
+                    <li class="nav-item "><a class="nav-link active"
+                            href="/home/dell/Desktop/vinit/HTML/HTml-ONly/teachers.html">Teachers</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container-fluid">
+        <h1>This is Teachers Page</h1>
+        <div class="container-fluid card-list">
+            <fieldset>
+                <legend><u>Class-5</u></legend>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Results</h5>
+
+                        <p class="card-text">Results of Half-yearly exams </p>
+                        <a href="/home/dell/Desktop/vinit/HTML/HTml-ONly/Multi Result.html" class="card-link">Edit</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Projects</h5>
+                        <p class="card-text">Projects done by a Student </p>
+                        <a href="#" class="card-link">View</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Conduct</h5>
+                        <p class="card-text">Total info about Students </p>
+                        <a href="#" class="card-link">Edit</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </fieldset>
+
+
+            <fieldset>
+                <legend><u>Class-6</u></legend>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Results</h5>
+
+                        <p class="card-text">Results of Half-yearly exams </p>
+                        <a href="/home/dell/Desktop/vinit/HTML/HTml-ONly/Multi Result.html" class="card-link">Edit</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Projects</h5>
+
+                        <p class="card-text">Projects done by a Student </p>
+                        <a href="#" class="card-link">View</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Conduct</h5>
+
+                        <p class="card-text">Total info about Students </p>
+                        <a href="#" class="card-link">Edit</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend><u>Class-7</u></legend>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Results</h5>
+
+                        <p class="card-text">Results of Half-yearly exams </p>
+                        <a href="/home/dell/Desktop/vinit/HTML/HTml-ONly/Multi Result.html" class="card-link">Edit</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Projects</h5>
+
+                        <p class="card-text">Projects done by a Student </p>
+                        <a href="#" class="card-link">View</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Conduct</h5>
+
+                        <p class="card-text">Total info about Students </p>
+                        <a href="#" class="card-link">Edit</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+    </main>
+    <!-- *Footer* -->
+
+    <footer class="mt-4" id="footer">
+        <div class="footer">
+            <div class="Address">
+                <h4>Address:</h4>
+                <p> Main Road,B.r.c Puram,</p>
+                <p> Sompeta,Srikakulam,</p>
+                <p> Andhra Pradesh,IND. 532284</p>
+            </div>
+            <hr style="border-top:4px dashed blue;">
+            <div class="Contact">
+                <h4>Conatct Info:</h4>
+                <p><a href="tel:7382128101">+917382128101</a></p>
+                <h4>Mail id:</h4>
+                <p><a href="mailto:dondapativinit@gmail.com">dondapativinit@gmail.com</a></p>
+            </div>
+            <hr style="border-top:4px dashed blue;">
+            <div>
+                <div class="Socialmeadia">
+                    <h4>Social Media</h4>
+                    <a href=""><i>Facebook</i></a><br>
+                    <a href=""><i>Instagram</i></a><br>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <p class="">Copyright © 2022 VinitWebs.</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+		integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+		integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+		crossorigin="anonymous"></script>
+
+</body>
+
+</html>
